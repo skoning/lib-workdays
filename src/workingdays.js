@@ -1,6 +1,3 @@
-// import moment from 'moment'
-import moment from 'moment-easter'
-
 function workingdays() {
     let year = arguments.length == 1 ? arguments[0] : (new Date()).getFullYear();
 
@@ -55,7 +52,7 @@ function workingdays() {
     /**
      * Add holiday
      * @param holiday Date in format `mmdd`
-     * 
+     *
      * @return void
      */
     this.addHolliday = function (holiday, name) {
@@ -77,7 +74,7 @@ function workingdays() {
         var valid = _validateDate(date)
         if (! valid.valid)
             return false;
-        
+
         date = valid.date
 
         if (typeof this.holidays.indexOf(date) == 'string')
