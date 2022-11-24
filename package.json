@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.2",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "moment-easter": "^0.1.1"
   },
   "devDependencies": {
